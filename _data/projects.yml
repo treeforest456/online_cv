@@ -13,18 +13,48 @@ categorical data, creating new features by performing interactions between colum
 model to improve the accuracy by 30%. Got NDCG score at 0.866</li>
     </ul>"
   - project:
-    title: DevStudio
+    title: Identify Fraud from Enron Email
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "<br />
+    <ul>
+      <li>Dealt with numerical data with imbalanced label set, outliers and NaN; the objective was identifying whether
+an individual is a fraud or not</li>
+      <li>Performed outlier detection, filling NaN, upsampling, numerical data scaling in preprocessing phase; created
+up to 703 features from 19 features and performed feature selection using feature importance</li>
+      <li>Chose Top 8 features added to the original set; tuned decision tree classifier after compared 8 algorithms, got
+0.82 accuracy, precision and recall were both improved by 20%</li>
+    </ul>"
   - project:
-    title: Tempo
+    title: Two Sigma Connect - Rental Listing Inquiries (Kaggle)
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: "<br />
+    <ul>
+      <li>Predicted the interest level of the listings given data set including numerical, categorical, text and image data</li>
+      <li>Used multi-ways interaction among columns to create new important features, extracted both new numerical
+and categorical features from text data</li>
+      <li>Tuned XGBoost model to fit the training data and made sure it was not overfitting by using cross validation</li>
+    </ul>"
   - project:
-    title: Atom
+    title: OpenStreetMap Data Wrangling
     link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    tagline: "<br />
+    <ul>
+      <li>Downloaded 419MB raw XML format data from OpenStreetMap.org about St. Louis, cleaned and reshaped
+the raw data with Python with Pandas and CSV packages</li>
+      <li>Imported the 5 cleaned CSV file into MySQL to do analysis; performed multiple queries to find insights and
+extra ideas about the dataset</li>
+      <li>Listed 3 extra ideas, and pros and cons for each of them, about improving the data quality; listed additional
+explorations about the local items of interest, such as amenities and cuisines</li>
+    </ul>"
   - project:
-    title: Delta
+    title: Sentiment Analysis with an RNN
     link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: "<br />
+    <ul>
+      <li>In data preprocessing phase, removed punctuations, encoded words into integers, truncated paragraphs to the
+same length in numpy array</li>
+      <li>Built embedding layer and LSTM layer with TensorFlow, used dropout technique to avoid overfitting, and
+added a fully connected layer at the end with sigmoid function as a classifier, using MSE as the metric</li>
+      <li>Split dataset into training, validation and test set, trained 10 epochs, and achieved 0.85 accuracy score on test
+set</li>
+    </ul>"
