@@ -1,16 +1,16 @@
 - skill:
   name: Python
-  level: 98%
+  level: 90%
 - skill:
-  name: Javascript & jQuery
-  level: 98%
+  name: SQL
+  level: 80%
 - skill:
-  name: Angular
-  level: 98%
+  name: Tableau
+  level: 80%
 - skill:
-  name: HTML5 & CSS
-  level: 95%
-- skill:
-  name: Ruby on Rails
+  name: Deep Learning
   level: 85%
+#- skill:
+#  name: Ruby on Rails
+#  level: 85%
 
