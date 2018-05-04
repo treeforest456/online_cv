@@ -1,5 +1,4 @@
-intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+intro: "The following are some of my finished projects, from Kaggle and Udacity Nanodegrees."
 projects:
   - project:
     title: Airbnb New User Bookings (Kaggle)
