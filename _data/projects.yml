@@ -2,9 +2,16 @@ intro: "You can list your side projects or open source libraries in this section
   sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
 projects:
   - project:
-    title: Velocity
+    title: Airbnb New User Bookings (Kaggle)
     link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    tagline: "<br />
+    <ul>
+      <li>Used data provided by Airbnb to predict in which country a new user will make his or her first booking</li>
+      <li>Cleaned raw data set to make it easier to handle for models, extracted features from numerical data as well as
+categorical data, creating new features by performing interactions between columns</li>
+      <li>Determined the most important feature by extracting the day of the year from date column, used XGBoost
+model to improve the accuracy by 30%. Got NDCG score at 0.866</li>
+    </ul>"
   - project:
     title: DevStudio
     link: "#"
