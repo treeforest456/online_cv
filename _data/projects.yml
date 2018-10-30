@@ -11,18 +11,18 @@ categorical data, creating new features by performing interactions between colum
       <li>Determined the most important feature by extracting the day of the year from date column, used XGBoost
 model to improve the accuracy by 30%. Got NDCG score at 0.866</li>
     </ul>"
-  - project:
-    title: Identify Fraud from Enron Email
-    link: "#"
-    tagline: "<br />
-    <ul>
-      <li>Dealt with numerical data with imbalanced label set, outliers and NaN; the objective was identifying whether
-an individual is a fraud or not</li>
-      <li>Performed outlier detection, filling NaN, upsampling, numerical data scaling in preprocessing phase; created
-up to 703 features from 19 features and performed feature selection using feature importance</li>
-      <li>Chose Top 8 features added to the original set; tuned decision tree classifier after compared 8 algorithms, got
-0.82 accuracy, precision and recall were both improved by 20%</li>
-    </ul>"
+#   - project:
+#     title: Identify Fraud from Enron Email
+#     link: "#"
+#     tagline: "<br />
+#     <ul>
+#       <li>Dealt with numerical data with imbalanced label set, outliers and NaN; the objective was identifying whether
+# an individual is a fraud or not</li>
+#       <li>Performed outlier detection, filling NaN, upsampling, numerical data scaling in preprocessing phase; created
+# up to 703 features from 19 features and performed feature selection using feature importance</li>
+#       <li>Chose Top 8 features added to the original set; tuned decision tree classifier after compared 8 algorithms, got
+# 0.82 accuracy, precision and recall were both improved by 20%</li>
+#     </ul>"
   - project:
     title: Two Sigma Connect - Rental Listing Inquiries (Kaggle)
     link: "#"
